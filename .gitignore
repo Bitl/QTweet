@@ -4,3 +4,4 @@ logs/
 .vscode/
 *.env
 !.example.env
+*.env
