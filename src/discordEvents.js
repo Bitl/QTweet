@@ -101,8 +101,6 @@ export const handleGuildDelete = async ({ id, name }) => {
 
 export const handleReady = async () => {
   log('Successfully logged in to Discord');
-  //set our custom status.
-  user.setActivity(`I made bail!`, {type: 4})
   await sanityCheck();
   createStream();
 };
